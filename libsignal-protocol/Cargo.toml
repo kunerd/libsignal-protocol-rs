@@ -6,8 +6,8 @@ edition = "2018"
 license = "GPL-3.0-or-later"
 readme = "../README.md"
 description = "An idiomatic high-level interface to the libsignal-protocol-c crate."
-homepage = "https://github.com/Michael-F-Bryan/libsignal-protocol-rs"
-repository = "https://github.com/Michael-F-Bryan/libsignal-protocol-rs"
+homepage = "https://github.com/kunerd/libsignal-protocol-rs"
+repository = "https://github.com/kunerd/libsignal-protocol-rs"
 keywords = ["signal", "libsignal", "whisper", "protocol"]
 categories = ["api-bindings", "cryptography"]
 
