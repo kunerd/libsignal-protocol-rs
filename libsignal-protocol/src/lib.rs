@@ -50,6 +50,7 @@
 //!
 //! [libsignal-protocol-c]: https://github.com/signalapp/libsignal-protocol-c
 
+#![feature(const_if_match)]
 #![deny(
     missing_docs,
     missing_debug_implementations,
