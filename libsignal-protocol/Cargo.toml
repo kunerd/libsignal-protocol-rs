@@ -12,8 +12,7 @@ keywords = ["signal", "libsignal", "whisper", "protocol"]
 categories = ["api-bindings", "cryptography"]
 
 [dependencies]
-libsignal-protocol-sys = { path = "../libsignal-protocol-sys/" }
-#libsignal-protocol-sys = "0.1.0"
+libsignal-protocol-sys = { git = "https://github.com/kunerd/libsignal-protocol-rs", branch = "enable_feature_const_if_match" }
 backtrace = "0.3"
 thiserror = "1.0.0"
 rand = "0.8"
